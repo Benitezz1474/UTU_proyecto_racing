@@ -1,0 +1,76 @@
+
+:root{
+    --color:rgb(31, 112, 6);
+    --color2:rgb(94, 255, 0);
+}
+
+form{
+    width: 70%;
+    max-width: 450px;
+    margin: 100px auto 20px auto;
+    padding: 10px 15px;
+    box-shadow: 5px 5px 10px 0 rgba(134, 133, 133, 0.719);
+    border-top: 4px solid var(--color);
+    border-radius: 2px;
+    overflow: hidden;
+    border-left: 1px solid rgba(188, 188, 188, 0.857);
+
+}
+
+form input, form textarea{
+    padding: 15px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: 1px solid #bdd;
+    width: 100%;
+    resize: none;
+}
+/* 
+form textarea{
+    width: 100%;
+} */
+
+form input[type="submit"]{
+    width: 50%;
+    max-width: 170px;
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid var(--color2);
+    color: var(color);
+    transition: all 0.4s;
+}
+
+form input[type="submit"]:hover{
+    outline: 1px solid rgb(255, 255, 255);
+    color: #fff;
+    background-color:var(--color);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+form input:focus, textarea:focus{
+
+    outline: 1px solid blue;
+}
+
+.error, .success{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 5px;
+    text-align: center;
+    color: rgb(82, 82, 82);
+}
+
+.error{
+    background-color: rgba(232, 99, 99, 0.889);
+
+}
+
+.success{
+    background-color: rgba(101, 232, 99, 0.889);
+
+}

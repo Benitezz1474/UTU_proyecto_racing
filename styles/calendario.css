@@ -1,0 +1,99 @@
+table {
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+ }
+ caption, td, th {
+    padding: 0.3em;
+ }
+ tbody {
+    /* border-top: 1px solid #000;
+    border-bottom: 1px solid #000; */
+ }
+ tbody th, tfoot th {
+    border: 0;
+ }
+ th.name {
+    width: 25%;
+ }
+ th.location {
+    width: 20%;
+ }
+ th.lasteruption {
+    width: 30%;
+ }
+ th.eruptiontype {
+    width: 25%;
+ }
+ tfoot {
+    text-align: center;
+    color: #555;
+    font-size: 0.8em;
+ }
+  
+
+ /* Ajuste */
+
+ .table-container{
+
+  
+ }
+
+  .matches{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+
+  }
+  
+  .matches thead{
+    background-color: rgba(15, 171, 15, 0.826);
+  }
+
+  .matches tbody tr:nth-child(odd){
+    background-color: rgba(151, 150, 150, 0.759);
+  }
+
+  .matches tbody td, .matches thead th{
+    text-align: center;
+    /* max-width: 100px; */
+    width: 20%;
+    padding: 10px 0;
+    
+  }
+
+  .matches tbody tr{
+    margin: 10px 0;
+  }
+
+  @media screen and (max-width: 690px){
+
+      
+      .table-container{
+          
+          overflow: scroll;
+        }
+        
+    }
+
+    .matches{
+        width: 100% !important;
+    }
+    
+
+    .matches tbody td, .matches thead th{
+        text-align: center;
+        /* max-width: 100px; */
+        min-width: 100px;
+        padding: 10px 0;
+    }    
+
+
+
+
+
+
+

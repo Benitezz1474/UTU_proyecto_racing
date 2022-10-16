@@ -1,0 +1,154 @@
+
+
+
+#container{
+	width: 70%;
+	width: 1100px;
+	margin: 100px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.clearfix{
+	clear: both;
+
+}
+
+.content{
+	float: left;
+	width: 93% ;
+	background-color: green;
+	padding: 40px;
+	min-height: 500px;
+}
+
+.article1{
+    text-align: center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	border-bottom: 1px solid white;
+
+}
+.article1 p {
+    text-align: left;
+    color: black;
+
+}
+
+
+.article1 b {
+    color: black;
+
+}
+
+
+.article2{
+    text-align: center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	border-bottom: 1px solid white;
+
+}
+
+.article2 p {
+    text-align: left;
+
+}
+
+.article2 h1 {
+    text-align: left;
+    color: black;
+	line-height: 30px; 
+
+}
+.article2 b {
+    color: black;
+
+}
+
+.article3{
+    text-align: center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	border-bottom: 1px solid white;
+
+}
+
+.article3 h1 {
+    text-align: left;
+    color: black;
+	line-height: 30px; 
+
+}
+.article3 h3 {
+    text-align:center;
+	color: black;
+	
+
+}
+.article3 p {
+    text-align: left;
+
+}
+.article3 b {
+    color: black;
+
+}
+
+.article4{
+    text-align: center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	border-bottom: 1px solid white;
+
+}
+
+.article4 h1 {
+    text-align: left;
+    color: black;
+	line-height: 30px; 
+
+}
+
+.article4 h3 {
+    text-align:center;
+	color: black;
+	line-height: 30px; 
+	
+
+}
+
+.article4 p {
+    text-align: left;
+	line-height: 30px; 
+
+}
+.article4 b {
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
